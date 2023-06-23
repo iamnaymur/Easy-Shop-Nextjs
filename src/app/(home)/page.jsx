@@ -1,8 +1,9 @@
 import React from 'react';
+import HeroSlider from './HeroSlider';
 
 const HomePage = () => {
   return <main>
-    <h1>Home</h1>
+    <HeroSlider></HeroSlider>
   </main>
 };
 

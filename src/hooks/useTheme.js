@@ -13,7 +13,7 @@ const useTheme = () => {
 
   if (!theme) {
     throw new Error(
-      "You mus wrap the application with ThemeProviders to use the useTheme"
+      "You must wrap the application with ThemeProviders to use the useTheme"
     );
   }
   return theme;
