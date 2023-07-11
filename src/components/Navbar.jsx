@@ -96,10 +96,13 @@ const Navbar = () => {
               <div className="w-10 rounded-full">
                 <Image
                   alt="user-logo"
+                  title={displayName}
+                  src={
+                    photoURL ||
+                    "https://i.ibb.co/0QZCv5C/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black.png"
+                  }
                   width={40}
                   height={40}
-                  title={displayName}
-                  src={photoURL}
                   className="h-10 w-10 rounded-full"
                 />
               </div>
